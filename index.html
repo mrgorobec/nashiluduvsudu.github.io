@@ -1,59 +1,76 @@
 <!doctype html>
 
 <html lang="en">
-<head>
-    <meta charset="utf-8">
+    <head>
+        <meta charset="utf-8">
 
-    <title>Oleksandr Polishchuk </title>
-    <meta name="description" content="Oleksandr Polishchuk">
-    <meta name="author" content="Oleksandr Polishchuk">
-    <meta name="viewport" content="width=device-width">
+        <title>Oleksandr Polishchuk </title>
+        <!--<meta name="description" content="Oleksandr Polishchuk">-->
+        <!--<meta name="author" content="Oleksandr Polishchuk">-->
+        <meta name="viewport" content="width=device-width">
 
-    <link rel="stylesheet" href="css/main.css?v=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css?v=1.0">
 
-    <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-</head>
-</head>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
 
-<body>
-<main>
-    <!--<img class="avatar" src="img/avatar.jpg" alt="">-->
-    <div class="content">
-        <h1>Oleksandr Polishchuk</h1>
-        <div class="skills">
-            <span class='skill btn btn_active' data-block="bio">Bio</span>
-            <span class='skill btn' data-block="python">QA</span>
-            <span class='skill btn' data-block="backend">API</span>
-            <span class='skill btn' data-block="frontend">UI</span>
-        </div>
-        <div class='desc start' id="bio">Hi. My name is Sasha. I'm a Automation Test Engineer (full-stack) from Kyiv,
-            Ukraine. In work I use pyCharm, git ,macOS (linux system). My favorite languages is Python (I have <a
-                    href="https://www.brainbench.com/xml/bb/transcript/public/consumer/transcript_testdetails.xml?back=1&pid=13098084&testid=14076773"
-                    title="Comment">Brainbench</a> certification). And using PyTest, Behave frameworks. I'm opened for a
-            part-time/full-time opportunity, so feel
-            free to contact me.
-        </div>
-        <div class="desc" id="python">I'm using Python for more than three years. I can write system scripts, Selenium
-            and API tests and many other fun things.
-        </div>
-        <div class="center portfolio_btn"><a
-                href="http://cv.djinni.co/58/223480821c11e593ecbdb5fbda871e/CV_Polishchuk_Oleksandr.pdf" class="btn"
-                target="_blank">CV</a></div>
+    <body>
+        <main>
+            <!--<img class="avatar" src="img/avatar.jpg" alt="">-->
+            <div class="container main-content">
+                <div class="raw">
+                    <div class="col-md-6 col-md-offset-3 main-panel">
+                        <h1>Oleksandr Polishchuk</h1>
 
-    </div>
+                        <ul class="nav nav-tabs" role="tablist">
+                          <li role="presentation" class="active tab-btn"><a href="#bio" aria-controls="home" role="tab" data-toggle="tab">Bio</a></li>
+                          <li role="presentation" class="tab-btn"><a href="#qa" aria-controls="profile" role="tab" data-toggle="tab">QA</a></li>
+                          <li role="presentation" class="tab-btn"><a href="#python" aria-controls="profile" role="tab" data-toggle="tab">Python</a></li>
+                          <li role="presentation" class="tab-btn"><a href="#contact" aria-controls="messages" role="tab" data-toggle="tab">Contact</a></li>
+                          <!--<li role="presentation"><a href="#ui" aria-controls="settings" role="tab" data-toggle="tab">UI</a></li>-->
+                        </ul>
+
+                        <div class="tab-content">
+                          <div role="tabpanel" class="tab-pane active" id="bio">
+                            <p>
+                              Hi. My name is Sasha. I'm a Automation Test Engineer (full-stack) from Kyiv, Ukraine. In work I use pyCharm, git ,macOS (linux system).
+                            </p>
+                          </div>
+                            <div role="tabpanel" class="tab-pane" id="qa">
+                                <p>
+                                    As Software Test Engineer I'm working more than 5 years. Have been started as Manual Front-End QA, after switched to Mobile QA position. Next my experience was with Web UI Automation using Selenium and Java, but it was not long term. And finally I'm get to Python and lovely use it now. :)
+                                </p>
+                            </div>
+                          <div role="tabpanel" class="tab-pane" id="python">
+                            <p>
+                              I'm using Python for more than three years. I can write system scripts, Selenium and API tests and many other fun things.  (I have <a href="https://www.brainbench.com/xml/bb/transcript/public/consumer/transcript_testdetails.xml?back=1&pid=13098084&testid=14076773" title="Comment">Brainbench</a> certification). And using PyTest, Behave frameworks. I'm opened for a part-time/full-time opportunity, so feel free to contact me.
+                            </p>
+                          </div>
+                          <div role="tabpanel" class="tab-pane" id="contact">... 3</div>
+                          <div role="tabpanel" class="tab-pane" id="ui">... 4</div>
+                        </div>
+
+                        <div class="center portfolio_btn"><a
+                                href="http://cv.djinni.co/58/223480821c11e593ecbdb5fbda871e/CV_Polishchuk_Oleksandr.pdf"
+                                class="btn"
+                                target="_blank">CV</a></div>
+
+                    </div>
+
+                </div>
+            </div>
 
 
-    <div class="links">
-        <a href="https://www.facebook.com/alexandr.polishchuk" target="_blank"><i class="icon-vkontakte"></i></a>
-        <a href="https://github.com/OlegWock" target="_blank"><i class="icon-github"></i></a>
-        <a href="mailto: olegwock@gmail.com" target="_blank"><i class="icon-mail-alt"></i></a>
-        <a href="http://telegram.me/OlegWock" target="_blank"><i class="icon-paper-plane"></i></a>
-    </div>
-    </div>
-</main>
-
-<script src="js/main.js"></script>
-</body>
+            <div class="links">
+                <a href="https://www.facebook.com/alexandr.polishchuk" target="_blank"><i class="icon-vkontakte"></i></a>
+                <a href="https://github.com/OlegWock" target="_blank"><i class="icon-github"></i></a>
+                <a href="mailto: olegwock@gmail.com" target="_blank"><i class="icon-mail-alt"></i></a>
+                <a href="http://telegram.me/OlegWock" target="_blank"><i class="icon-paper-plane"></i></a>
+            </div>
+            </div>
+        </main>
+    </body>
 </html>
