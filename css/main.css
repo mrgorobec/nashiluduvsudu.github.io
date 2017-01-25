@@ -5,12 +5,18 @@ body {
 }
 
 .main-panel {
-  border: 1px solid #c3c3c3;
-  background-color: rgba(255,255,255,0.4);
+  /*border: 1px solid #c3c3c3;*/
+  /*background-color: rgba(255,255,255,0.4);*/
 }
 .main-content {
   margin-top: 15vh;
 }
 .nav>li.tab-btn>a:hover {
-  background-color: red;
+  background-color: #31b0d5;
+}
+
+.tab-btn a {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
 }
